@@ -12,6 +12,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #000;
     color: #fff;
+    ;
 }
 
 header {
@@ -126,8 +127,8 @@ div.splash div.content {
 
 @media screen and (min-width:550px) {
     div.splash div.content {
-        padding-top: 235px;
-        padding-bottom: 185px;
+        padding-top: 230px;
+        padding-bottom: 170px;
     }
 }
 
@@ -166,8 +167,8 @@ div.splash h3 {
     }
 
     div.splash p {
-        font-size: 33px;
-        font-weight: 700;
+        font-size: 48px;
+        font-weight: 900;
     }
 }
 
@@ -235,12 +236,10 @@ div.cta button {
 
 section {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 46px;
     padding: 70px 35px;
     align-items: center;
     border-top: 8px solid #222;
-    text-align: center;
 }
 
 @media screen and (min-width:550px) {
@@ -262,6 +261,7 @@ section div.texts h1 {
 @media screen and (min-width:550px) {
     section div.texts h1 {
         font-size: 3.125rem;
+        margin-left: 86px;
     }
 }
 
@@ -272,6 +272,7 @@ section div.texts p {
 @media screen and (min-width:550px) {
     section div.texts p {
         font-size: 1.625rem;
+        margin-left: 86px;
     }
 }
 
